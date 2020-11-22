@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.container {
+    display: flex;
+    height: 900px;
+    background-color: rgb(187, 185, 185);
+    flex-wrap: wrap;
+}
+
+.container div {
+    margin: 5px;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    border-radius: 9px;
+}
+
+.ironflex {
+    border: 2px solid black;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.captain, .ironman, .widow, .spider {
+    width: auto;
+    height: 270px;
+    position: relative;
+    top: -20px;
+    left: 15px;
+}
+
+.spider {
+    top: 20px;
+    bottom: -15px;
+}
+
+p {
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 1;
+}
+
+.first {
+    background: linear-gradient(#295df8,#6512ec 85%);
+    display: flex; 
+    justify-content: space-between;
+}
+
+.second {
+    background: linear-gradient(#b50012, #820410);
+    display: flex;
+    justify-content: space-between;
+}
+.third {
+    background: linear-gradient(270deg, #5904b5, #26014f 98%);
+    display: flex; 
+    justify-content: space-between;
+}
+
+.fourth {
+    background: linear-gradient(#a80000 19%,#2f0000 80%);
+    display: flex; 
+    justify-content: space-between;
+}
